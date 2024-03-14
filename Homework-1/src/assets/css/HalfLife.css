@@ -1,0 +1,13 @@
+#halflife {
+  background-color: #333333;
+  color: #ffa500;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px 20px;
+}
+
+#hldetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}

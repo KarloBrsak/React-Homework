@@ -1,0 +1,13 @@
+#outerwilds {
+  background-color: #191970;
+  color: #ffff00;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px 20px;
+}
+
+#owdetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}

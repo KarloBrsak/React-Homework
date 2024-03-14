@@ -1,0 +1,13 @@
+#discoelysium {
+  background-color: #4b0082;
+  color: #ffd700;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px 20px;
+}
+
+#dedetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}

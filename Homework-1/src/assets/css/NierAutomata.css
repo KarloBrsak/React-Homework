@@ -1,0 +1,13 @@
+#nierautomata {
+  background-color: #00008b;
+  color: #c0c0c0;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px 20px;
+}
+
+#nadetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
