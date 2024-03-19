@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Age = props => {
   const postari = props.lugje.map((covek, i) => {
-    if (covek.godini > 18) {
+    if (covek.godini >= 18) {
       return (
         <li key={i}>
           {covek.ime} {covek.prezime}
