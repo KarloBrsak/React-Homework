@@ -21,9 +21,9 @@ export function App() {
       godini: 12,
     },
     {
-      ime: 'Ramko',
-      prezime: 'Ramkovski',
-      adresa: 'Ramkovland',
+      ime: 'Rade',
+      prezime: 'Radev',
+      adresa: 'Radovish',
       godini: 55,
     },
     {
