@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export const Movies = ({ movies }) => {
   return (
@@ -35,4 +36,17 @@ export const Movies = ({ movies }) => {
       </table>
     </div>
   );
+};
+
+Movies.propTypes = {
+  movies: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      date: PropTypes.string.isRequired,
+      genre: PropTypes.string.isRequired,
+      plot: PropTypes.string.isRequired,
+      imdbLink: PropTypes.string.isRequired,
+      imgUrl: PropTypes.string.isRequired,
+    })
+  ),
 };
